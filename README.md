@@ -2,7 +2,7 @@
 
 ``Yacc`` provides a general tool for describing the input to a computer program. The Yacc user specifies the structures of his input, together with code to be invoked as each such structure is recognized. ``Flex`` is a tool for generating scanners: programs which recognized lexical patterns in text.
 
-The above tools have been used to build a simple simple interpreter to perform mathematical operations. The whole program is based on a defined ``grammar``, which can be changed as needed. It supports basic mathematical operations such as ``+``, ``-``, ``*`` and ``/`` including the operator precedence. Integer and floating point numbers as well as positive and negative numbers can be used to perform calculations. It is possible to run the exponentiation (``**`` operator) or logarithms (``log`` operator).
+The above tools have been used to build a simple interpreter to perform mathematical operations. The whole program is based on a user defined ``grammar``, which can be changed as needed. It supports basic mathematical operations such as ``+``, ``-``, ``*`` and ``/`` including the operator precedence. Integer and floating point numbers as well as positive and negative numbers can be used to perform calculations. It is possible to run the exponentiation (``**`` operator) or logarithms (``log`` operator).
 
 This interpreter gives you the option to run the functions. An example is the ``max`` function that returns the largest number of arguments passed as parameters. ``max(5,13,0,55,27)`` returns 55, ``max(2 ** 4, 2 ** 6, 4 ** 3)`` returns 64 and so on.
 
